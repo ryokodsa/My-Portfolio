@@ -1,0 +1,98 @@
+header{
+    background-color: darkred;
+    height: 80px;
+}
+
+header h1{
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+body{
+    margin: auto;
+    background-color: palegoldenrod;
+    font-family: sans-serif;
+}
+
+.hidden_box {
+    margin: 10px 0 0 10px;
+    text-align: center;
+}
+
+label{
+    text-align: center;
+}
+
+body h2{
+    margin: 40px 5px 20px 5px;
+    font-size: 22px;
+    color: rgb(83, 19, 19);
+    text-align: center;
+}
+
+body h3{
+    font-size: 25px;
+    color: #531313;
+    text-align: center;
+    margin: 60px 0 0 0;
+}
+
+body h4{
+    font-size: 20px;
+    color: #531313;
+    text-align: center;
+}
+
+body h5{
+    font-size: 17px;
+    color: #531313;
+    text-align: center;
+}
+
+/*
+.hidden_box {
+    height: 100px;
+    width: 900px;
+    margin: 10px;
+    padding: 0;
+}
+
+.hidden_box label{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-size: 25px;
+    background: darkred;
+    color: #FFF;
+    border-radius: 10%;
+    box-shadow: 0px 0px 0px 5px darkred;
+    border: dashed 1px #FFF;
+}
+  
+.hidden_box label:hover {
+    border: dotted 1px #FFF;
+}
+
+.hidden_box input {
+    display: none;
+}
+
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+*/
+footer{
+    text-align: center;
+}
