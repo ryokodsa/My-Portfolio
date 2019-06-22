@@ -1,33 +1,46 @@
 header{
     background-color: darkred;
-    height: 80px;
+    height: 200px;
+    position: relative;
+    margin: 200px 0 0 0;
 }
 
 header h1{
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    width: 500px;
+    text-align: center;
     color: whitesmoke;
     font-size: 30px;
-    margin: 0 0 0 0;
-    text-align: center;
+    font-family: cursive;
 }
 
+.page{
+    float: left;
+    top: 800px;
+    left: 30px;
+}
 body{
     margin: auto;
     background-color: palegoldenrod;
-    font-family: sans-serif;
-}
-
-.hidden_box {
-    margin: 10px 0 0 10px;
-    text-align: center;
+    font-family: cursive;
 }
 
 label{
     text-align: center;
 }
 
+#about{
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
 body h2{
-    margin: 40px 5px 20px 5px;
-    font-size: 22px;
+    margin: 20px 5px 20px 5px;
+    font-size: 20px;
     color: rgb(83, 19, 19);
     text-align: center;
 }
@@ -51,12 +64,10 @@ body h5{
     text-align: center;
 }
 
-/*
 .hidden_box {
-    height: 100px;
-    width: 900px;
-    margin: 10px;
+    margin: 50px 0 50px 0;
     padding: 0;
+    text-align: center;
 }
 
 .hidden_box label{
@@ -92,7 +103,12 @@ body h5{
     height: auto;
     opacity: 1;
 }
+
+/* #box01{
+    margin-bottom: 100px;
+}
 */
+
 footer{
     text-align: center;
 }
